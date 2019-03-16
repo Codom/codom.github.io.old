@@ -1,11 +1,19 @@
 # Christopher Odom
 
-github.com/Codom --- gitlab.com/Codom
+## [github](https://github.com/Codom) --- [gitlab](https://gitlab.com/Codom)
 
 I am a student at Umass Lowell aiming to 
 get my bachelors in Computer Science.
 
-[projects](./projects.html)
-[organizations](./organizations.html)
+[organizations](./organizations.html) ---
 [resume](./resume.pdf)
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136386314-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136386314-1');
+</script>
