@@ -7,4 +7,5 @@ get my bachelors in Computer Science.
 
 [projects](./projects.html)
 [organizations](./organizations.html)
+[resume](./resume.pdf)
 
