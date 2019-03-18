@@ -5,7 +5,7 @@ all : $(PAGES)
 	mv $(PAGES) ..
 
 %.html : %.md
-	touch $@ && cat global >> $@ && $(CC) $< >> $@
+	touch $@ && $(CC) $< >> $@ && cat global >> $@
 
 .phony clean :
 	rm ../$(PAGES)
