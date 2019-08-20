@@ -1,0 +1,3 @@
+[submodule "resume"]
+	path = resume
+	url = https://gitlab.com/Codom/resume.git
