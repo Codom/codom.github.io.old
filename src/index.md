@@ -20,7 +20,8 @@
 I am a student at Umass Lowell aiming to 
 get my bachelors in Computer Science.
 
-[organizations](./organizations.html) [resume](./resume.pdf)
+[organizations](./organizations.html) [resume](../resume/resume.pdf)
 
 
 [website source](https://github.com/Codom/Codom.github.io)
+
