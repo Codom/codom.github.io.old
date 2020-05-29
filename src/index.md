@@ -16,6 +16,7 @@
 # Christopher Odom
 
 ## [github](https://github.com/Codom) --- [gitlab](https://gitlab.com/Codom)
+## [R&egrave;sum&egrave;](./resume.pdf)
 
 ### About Me
 I am a Computer Science undergraduate at Umass Lowell, with experience
@@ -33,7 +34,6 @@ on the [rpi.underground.software](https://rpi.underground.software) website.
 
 And finally, check out my Time Tracking script [here](https://github.com/Codom/Timelog)!
 
-## [R&egrave;sum&egrave;](./resume.pdf)
 
 
 <footer>
