@@ -3,15 +3,21 @@ body{
 }
 
 h1{
+	font-size: 35pt;
 	text-align: center;
 }
 
 h2{
+	font-size: 25pt;
 	text-align: center;
 }
 
+h3{
+	font-size: 25pt;
+}
+
 p{
-	font-size: 16pt;
+	font-size: 20pt;
 }
 
 footer{

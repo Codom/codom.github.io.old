@@ -17,14 +17,27 @@
 
 ## [github](https://github.com/Codom) --- [gitlab](https://gitlab.com/Codom)
 
+### About Me
 I am a Computer Science undergraduate at Umass Lowell, with experience
 with in real-time systems engineering and web development.
+I am also a musician in my spare time and aim to start writing
+and recording music in the near future
 
+### What I do
+Currently I am interning at RedHat working on the Ceph Storage project.
+More details about Ceph can be found [here](https://ceph.io).
 
-## [organizations](./organizations.html) [resume](./resume.pdf)
+In addition to RedHat, I am occasionally helping out with improvements
+to the Fedora project on the Raspberry Pi. Details on that can be found
+on the [rpi.underground.software](https://rpi.underground.software) website.
+
+And finally, check out my Time Tracking script [here](https://github.com/Codom/Timelog)!
+
+## [R&egrave;sum&egrave;](./resume.pdf)
 
 
 <footer>
 [website source](https://github.com/Codom/Codom.github.io)
 </footer>
+
 
