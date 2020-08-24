@@ -26,16 +26,15 @@ I am finishing my undergraduate degree in Computer Science
 at Umass Lowell. I am passionate about embedded systems
 programming, especially in real-time environments.
 
-I have experience in testing flight software for aerospace,
-as well as more general experience in web development and
-operating systems.
+I have professional experience in flight software testing
+for aerospace as well as experience in REST API development.
+I was also part of the UML team in the 2020 NECCDC
+regional competition.
 
-## Blog: Under Construction
-
-## Other links
+<!--
+ TODO: Start a blahg bro
+-->
 
 <footer>
 [website source](https://github.com/Codom/Codom.github.io)
 </footer>
-
-
