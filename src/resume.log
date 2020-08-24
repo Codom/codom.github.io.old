@@ -1,155 +1,177 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.20)  28 MAY 2020 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.10)  22 AUG 2020 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **resume.tex
 (./resume.tex
-LaTeX2e <2019-10-01> patch level 1
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box27
-\beforetitleunit=\skip43
-\aftertitleunit=\skip44
-\ttl@plus=\dimen103
-\ttl@minus=\dimen104
-\ttl@toksa=\toks14
-\titlewidth=\dimen105
-\titlewidthlast=\dimen106
-\titlewidthfirst=\dimen107
+\ttl@box=\box45
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen135
+\ttl@minus=\dimen136
+\ttl@toksa=\toks15
+\titlewidth=\dimen137
+\titlewidthlast=\dimen138
+\titlewidthfirst=\dimen139
 )
 (/usr/share/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip45
-\thanksmargin=\skip46
-\droptitle=\skip47
+\thanksmarkwidth=\skip51
+\thanksmargin=\skip52
+\droptitle=\skip53
 )
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
-\c@tracingmulticols=\count88
-\mult@box=\box28
-\multicol@leftmargin=\dimen108
-\c@unbalance=\count89
-\c@collectmore=\count90
-\doublecol@number=\count91
-\multicoltolerance=\count92
-\multicolpretolerance=\count93
-\full@width=\dimen109
-\page@free=\dimen110
-\premulticols=\dimen111
-\postmulticols=\dimen112
-\multicolsep=\skip48
-\multicolbaselineskip=\skip49
-\partial@page=\box29
-\last@line=\box30
-\maxbalancingoverflow=\dimen113
-\mult@rightbox=\box31
-\mult@grightbox=\box32
-\mult@gfirstbox=\box33
-\mult@firstbox=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\@tempa=\box50
-\@tempa=\box51
-\c@minrows=\count94
-\c@columnbadness=\count95
-\c@finalcolumnbadness=\count96
-\last@try=\dimen114
-\multicolovershoot=\dimen115
-\multicolundershoot=\dimen116
-\mult@nat@firstbox=\box52
-\colbreak@box=\box53
-\mc@col@check@num=\count97
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count175
+\mult@box=\box46
+\multicol@leftmargin=\dimen140
+\c@unbalance=\count176
+\c@collectmore=\count177
+\doublecol@number=\count178
+\multicoltolerance=\count179
+\multicolpretolerance=\count180
+\full@width=\dimen141
+\page@free=\dimen142
+\premulticols=\dimen143
+\postmulticols=\dimen144
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box47
+\last@line=\box48
+\maxbalancingoverflow=\dimen145
+\mult@rightbox=\box49
+\mult@grightbox=\box50
+\mult@gfirstbox=\box51
+\mult@firstbox=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\c@minrows=\count181
+\c@columnbadness=\count182
+\c@finalcolumnbadness=\count183
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
+\mult@nat@firstbox=\box90
+\colbreak@box=\box91
+\mc@col@check@num=\count184
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count98
-\Gm@cntv=\count99
-\c@Gm@tempcnt=\count100
-\Gm@bindingoffset=\dimen117
-\Gm@wd@mp=\dimen118
-\Gm@odd@mp=\dimen119
-\Gm@even@mp=\dimen120
-\Gm@layoutwidth=\dimen121
-\Gm@layoutheight=\dimen122
-\Gm@layouthoffset=\dimen123
-\Gm@layoutvoffset=\dimen124
-\Gm@dimlist=\toks16
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks17
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
 )
 (/usr/share/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count101
-\cp@tempcnt=\count102
+\c@cp@cntr=\count188
+\cp@tempcnt=\count189
 )
 (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count190
+\l__pdf_internal_box=\box92
 ) (./resume.aux)
-\openout1 = `resume.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -194,19 +216,19 @@ LaTeX Font Info:    ... okay on input line 54.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 1445 strings out of 492167
- 19283 string characters out of 6131558
- 97611 words of memory out of 5000000
- 5845 multiletter control sequences out of 15000+600000
- 6423 words of font info for 23 fonts, out of 8000000 for 9000
+ 1600 strings out of 480478
+ 23142 string characters out of 5905959
+ 273511 words of memory out of 5000000
+ 17663 multiletter control sequences out of 15000+600000
+ 535121 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,4n,45p,202b,121s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,45p,202b,137s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr10.pfb>
-Output written on resume.pdf (1 page, 63314 bytes).
+Output written on resume.pdf (1 page, 63315 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream

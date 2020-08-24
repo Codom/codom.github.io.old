@@ -1,7 +1,6 @@
 <!--
     This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
+    it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
     This program is distributed in the hope that it will be useful,
@@ -13,28 +12,27 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
 
+<header>
+
 # Christopher Odom
 
-## [github](https://github.com/Codom) --- [gitlab](https://gitlab.com/Codom)
-## [R&egrave;sum&egrave;](./resume.pdf)
+## [Github](https://github.com/Codom) --- [Gitlab](https://gitlab.com/Codom) --- [R&egrave;sum&egrave;](./resume.pdf)
 
-### About Me
-I am a Computer Science undergraduate at Umass Lowell, with experience
-with in real-time systems engineering and web development.
-I am also a musician in my spare time and aim to start writing
-and recording music in the near future
+</header>
 
-### What I do
-Currently I am interning at RedHat working on the Ceph Storage project.
-More details about Ceph can be found [here](https://ceph.io).
+## Who am I
 
-In addition to RedHat, I am occasionally helping out with improvements
-to the Fedora project on the Raspberry Pi. Details on that can be found
-on the [rpi.underground.software](https://rpi.underground.software) website.
+I am finishing my undergraduate degree in Computer Science
+at Umass Lowell. I am passionate about embedded systems
+programming, especially in real-time environments.
 
-And finally, check out my Time Tracking script [here](https://github.com/Codom/Timelog)!
+I have experience in testing flight software for aerospace,
+as well as more general experience in web development and
+operating systems.
 
+## Blog: Under Construction
 
+## Other links
 
 <footer>
 [website source](https://github.com/Codom/Codom.github.io)

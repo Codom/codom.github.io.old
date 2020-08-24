@@ -4,32 +4,38 @@ body{
 
 h1{
 	font-size: 35pt;
-	text-align: center;
 }
 
 h2{
-	font-size: 25pt;
-	text-align: center;
-}
-
-h3{
-	font-size: 25pt;
-}
-
-p{
 	font-size: 20pt;
 }
 
+h3{
+	font-size: 15pt;
+}
+
+p{
+	font-size: 12pt;
+}
+
+a{
+	color: darkslategray;
+	text-decoration: none;
+}
+
+header{
+	text-align: center;
+}
+
 footer{
-	text-align: center
-	padding: 3px;
+	font-size: 15pt;
+	padding: 5px;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #99ccff;
+	background-color: Azure;
 	color: white;
 	text-align: right;
 }
-
 
