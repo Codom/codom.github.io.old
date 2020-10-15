@@ -9,40 +9,39 @@
 \usepackage{fancyhdr}
 \usepackage{changepage}
 \usepackage{setspace}
-	\singlespacing
+\singlespacing
+\pagestyle{empty}
+
+\newcommand\textbox[1]{%
+	  \parbox{.333\textwidth}{#1}%
+}
 
 \renewcommand{\maketitle}
 {
-\begin{center}
-{\huge\bfseries \theauthor}
+	\begin{center}\huge \theauthor\end{center}
+	{\large\noindent\textbox{chrisodom.org\hfill}\textbox{\hfill}\textbox{\hfill781-866-1692}}
 
-chrisodom.org\\
-Lowell, MA ---  781-866-1692\\
-christopher.r.odom@gmail.com  ---  gitlab.com/Codom --- github.com/Codom
-
-\end{center}
+	{\large\noindent\textbox{christopher.r.odom@gmail.com\hfill}\textbox{\hfill}\textbox{\hfill\ Lowell, MA}}
 }
 
-\pagestyle{empty}
-
 \titleformat{\section}
-{\Large\bfseries}
+{\Large}
 {}
 {0.ex}
 {}[\titlerule]
 
 \titleformat{\subsection}
-{\large\bfseries}
+{\large}
 {}
 {0em}
 {}
 
-\titlespacing{\section}{-2em}{0.75em}{0.64em}
-\titlespacing{\subsection}{-1em}{0.64em}{0em}
-\titlespacing{\subsubsection}{0em}{0em}{0.64em}
+\titlespacing{\section}{0em}{0.75em}{0.64em}
+\titlespacing{\subsection}{0em}{0.64em}{0em}
+\titlespacing{\subsubsection}{1em}{0em}{0.64em}
 
 \titleformat{\subsubsection}[runin]
-{\bf\em}
+{\em}
 {}
 {0em}
 {}[:] 
@@ -53,7 +52,6 @@ christopher.r.odom@gmail.com  ---  gitlab.com/Codom --- github.com/Codom
 
 \begin{document}
 
-
 \title{R\'esum\'e}
 \author{Christopher Odom}
 
@@ -61,9 +59,8 @@ christopher.r.odom@gmail.com  ---  gitlab.com/Codom --- github.com/Codom
 
 \section{Relevant Experience}
 
-
 \subsection{Ceph Storage Software Engineering Intern}
-\subsection{RedHat\dotfill Summer 2020 --- Current}
+\subsection{RedHat\dotfill Summer 2020 --- Fall 2020}
 \subsubsection{Skills Used} Knowledge of Python and Web Development Concepts
 \subsubsection{Roles}
 Acting as part of a team, implement a RESTful API for the Ceph storage
@@ -108,29 +105,10 @@ to facilitate an IOT class at UMass Lowell
 \section{Education}
 
 \subsection{University of Massachusetts Lowell, Lowell MA\dotfill expected December 2020}
-{\hspace{-1em}\bf Bachelor of Science, Computer Science}
+{\hspace{-1em} Bachelor of Science, Computer Science}
 
 \subsection{Framingham State University, Framingham MA
 \dotfill Sept 2016 - May 2017} 
-{\hspace{-1em}\bf Coursework in Computer Science}
-
-\iffalse
-\section{Skills}
-\subsection{Software}
-\subsubsection{Office} \LaTeX, Excel, Word, PowerPoint, Access
-\subsubsection{Project Management} Git
-\subsubsection{Operating Systems} 
-				Linux, Windows, VxWorks
-
-\subsection{Programming Languages}
-
-\subsubsection{Programming Languages}
-C, C++, Java, Python, JavaScript
-
-\subsubsection{Markup Languages}
-HTML, R Markdown, Markdown
-
-\fi
+{\hspace{-1em} Coursework in Computer Science}
 
 \end{document}
-
