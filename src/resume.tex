@@ -1,0 +1,127 @@
+% vim:ft=tex:
+%
+\documentclass[11pt]{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{multicol}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{changepage}
+\usepackage{setspace}
+	\singlespacing
+\usepackage{bold-extra}
+\usepackage[T1]{fontenc}
+
+\newcommand\textbox[1]{%
+	\parbox{.333\textwidth}{#1}%
+}
+
+\newcommand\describe[2]{
+
+	\hangindent=1em
+	\hangafter=1
+	\noindent\hspace{1em}{\it#1}: #2
+}
+
+\renewcommand{\maketitle}
+{
+	\begin{center}\huge \theauthor\end{center}
+	{\large\noindent\textbox{chrisodom.org\hfill}\textbox{\hfill}\textbox{\hfill781-866-1692}}
+
+	{\large\noindent\textbox{christopher.r.odom@gmail.com\hfill}\textbox{\hfill}\textbox{\hfill\ Lowell, MA}}
+}
+
+\titleformat{\section}
+{\large\bfseries\scshape}
+{}
+{0.ex}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\section}{0em}{1em}{0.64em}
+\titlespacing{\subsection}{0em}{1em}{0em}
+\titlespacing{\subsubsection}{1em}{0em}{0.64em}
+
+\titleformat{\subsubsection}[runin]
+{\em}
+{}
+{0em}
+{}[:] 
+
+\setlength{\parskip}{0ex}
+
+\headheight = 0pt
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+
+\title{R\'esum\'e}
+\author{Christopher Odom}
+
+\maketitle
+
+\section{Relevant Experience}
+
+\subsection{RedHat}
+\subsection{Ceph Storage Software Engineering Intern\dotfill June 2020 --- August 2020}
+Worked as part of a team to update the Ceph Dashboard
+API into a more general purpose REST-ful API
+
+\subsection{UMass Lowell}
+\subsection{New England CCDC\dotfill November 2019 --- April 2020 }
+
+Worked as a team in a high paced environment to develop
+strategies and process, while
+developing hard skills in defensive security operations,
+to advance UMass Lowell into the New England Cyber Defense
+Competition
+
+\subsection{ECG/UMass Lowell}
+\subsection{Lead developer for isenseproject.org\dotfill May 2019 --- August 2019}
+Quickly developed skill in Ruby on Rails to fix several outdated dependencies
+which presented serious security risks to the platform
+
+\subsection{Draper}
+\subsection{Flight software testing Co-op for CRS2\dotfill July 2018 --- January 2019}
+Using previous experience in c and python, and developing experience in low-level
+RTOS, platform, and flight software development,
+created internal testing frameworks and 
+low-level applications to aid in the testing of the
+guidance and navigation systems in the Dream Chaser
+Spacecraft as part of a CRS2 mission.
+
+\subsection{ECG/UMass Lowell}
+\subsection{Android developer for isenseproject.org\dotfill May 2018 --- July 2018}
+Maintained the iSense
+extension for the AppInventor android application, 
+enabling those involved in the research to learn
+about the basics of using web services using the iSense
+and AppInventor platforms
+
+\section{Relevant Projects}
+
+\subsection{Fedora Raspberry Pi Improvements\dotfill August 2019 --- May 2020 }
+
+Work with classmates
+and with staff at Red Hat
+to ship a bootable Fedora Remix containin: performance and quality of life improvements
+to facilitate an IOT class at UMass Lowell
+
+\section{Education}
+
+\subsection{University of Massachusetts Lowell, Lowell MA\dotfill expected June 2021}
+{\hspace{-1em} Bachelor of Science, Computer Science}
+
+\subsection{Framingham State University, Framingham MA
+\dotfill Sept 2016 - May 2017} 
+{\hspace{-1em}Coursework in Computer Science}
+
+\end{document}

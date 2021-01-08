@@ -1,0 +1,43 @@
+body{
+	margin: 50px 20% 50px 20%;
+}
+
+h1{
+	font-size: 35pt;
+}
+
+h2{
+	font-size: 20pt;
+}
+
+h3{
+	font-size: 15pt;
+}
+
+p{
+	font-size: 14pt;
+}
+
+li{
+	font-size: 14pt;
+}
+
+a{
+	color: darkslategray;
+	text-decoration: none;
+}
+
+header{
+	text-align: center;
+}
+
+footer{
+	font-size: 15pt;
+	padding: 5px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: Azure;
+}
+
