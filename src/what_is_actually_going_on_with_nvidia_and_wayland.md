@@ -1,6 +1,6 @@
 # What is *acutally* going on with nvidia and wayland?
 
-## January 16th, 2020
+## January 16th, 2021
 
 <small>
 **General Disclaimer**: I haven't perused the source code of mesa
