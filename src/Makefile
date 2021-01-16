@@ -4,7 +4,7 @@ CC = markdown
 CCT = pdflatex
 
 all : $(PAGES) $(TEX)
-	mv $(PAGES) $(TEX) ..
+	mv $(BLOGS) $(PAGES) $(TEX) ..
 
 %.html : %.md
 	touch $@ && $(CC) $< >> $@ && cat global >> $@
