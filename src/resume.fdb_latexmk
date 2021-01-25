@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1609906058 "resume.tex" "resume.pdf" "resume" 1609906058
+["pdflatex"] 1611612404 "resume.tex" "resume.pdf" "resume" 1611612405
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1607249373 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1607249373 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -39,11 +39,11 @@
   "/usr/share/texmf-dist/tex/latex/titling/titling.sty" 1607185936 7358 95ac619994bd30d405a74f3eca431c84 ""
   "/usr/share/texmf-dist/tex/latex/tools/multicol.sty" 1607249373 31532 04852e45d7c17cb384689d2f83b628d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1607249373 33301 a3134070eacafb10b1f371612ce2650d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1608752127 4885835 225b430335ea75120e4d14f95280dfb9 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1608752108 2635867 5a9f328fb6306b6cb962aeb669c6bc05 ""
-  "resume.aux" 1609906058 2149 e5dbb3e02d34f91161ac2b2328aeced0 "pdflatex"
-  "resume.tex" 1609906057 3312 795e529c0f8bd0d7485e10a143d81a73 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1610170052 4885835 225b430335ea75120e4d14f95280dfb9 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1610170045 2635858 642309c7fa1a197cbaa22cb3b8cef51f ""
+  "resume.aux" 1611612405 2147 801279c4f3de23cf9ce11cd3af40bd0e "pdflatex"
+  "resume.tex" 1611612404 3311 5a6d9d6e22b86884e394ea1b90f7e883 ""
   (generated)
-  "resume.log"
   "resume.pdf"
   "resume.aux"
+  "resume.log"
