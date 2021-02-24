@@ -49,7 +49,6 @@ of Massachusetts Lowell
 
 - [What is *actually* going on with nvidia and wayland](what_is_actually_going_on_with_nvidia_and_wayland.html)
 - [Why Static?](./why_static.html)
-- [First Post, please ignore](./first_blog_post.html)
 
 <footer>
 christopher.r.odom@gmail.com | [website source](https://github.com/Codom/Codom.github.io)
