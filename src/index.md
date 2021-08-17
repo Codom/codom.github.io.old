@@ -22,13 +22,8 @@
 
 ## Who am I
 
-I am a senior in Computer Science
-at Umass Lowell. Shortly after starting a Umass Lowell,
-I started interning at Draper where I developed my understanding
-of real-time systems programming for the aerospace industry.
-Currently I am working on finishing my degree in Computer Science
-and want to continue exploring my passion for real-time software
-engineering.
+I'm a software developer with interests in creating low latency, safe, and high
+performance code.
 
 ### Professional work includes
 * REST API developer for Red Hat
@@ -44,11 +39,6 @@ of Massachusetts Lowell
 * More disorganized one-off projects on my [github](https://github.com/Codom) and
 [gitlab](https://gitlab.com/Codom)
 
-
-## Blog
-
-- [What is *actually* going on with nvidia and wayland](what_is_actually_going_on_with_nvidia_and_wayland.html)
-- [Why Static?](./why_static.html)
 
 <footer>
 christopher.r.odom@gmail.com | [website source](https://github.com/Codom/Codom.github.io)
