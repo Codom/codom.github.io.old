@@ -9,6 +9,8 @@ body{
   padding-left: 30px;
 }
 
+#right { text-align: right; }
+
 h1{
 	font-size: 35pt;
 }
@@ -48,3 +50,6 @@ footer{
 	background-color: Azure;
 }
 
+div.right {
+	float: right;
+}

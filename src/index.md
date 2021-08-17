@@ -41,5 +41,5 @@ of Massachusetts Lowell
 
 
 <footer>
-christopher.r.odom@gmail.com | [website source](https://github.com/Codom/Codom.github.io)
+christopher.r.odom@gmail.com <div class="right"> [website source](https://github.com/Codom/Codom.github.io) </div>
 </footer>
