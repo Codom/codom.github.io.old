@@ -23,7 +23,9 @@
 ## Who am I
 
 I'm a software developer with interests in creating low latency, safe, and high
-performance code.
+performance code. I have professional experience writing testing software
+for hardware, making improvements to android and web apps, and non-professional experience
+in game engine and native application development.
 
 ### Professional work includes
 * REST API developer for Red Hat
