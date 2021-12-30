@@ -11,12 +11,13 @@
 \usepackage[margin=0.75in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{changepage}
+\usepackage{xcolor}
 \usepackage{setspace}
 \singlespacing
 \usepackage{bold-extra}
 \usepackage[T1]{fontenc}
 
-\setlength{\columnsep}{0pt}
+\setlength{\columnsep}{1cm}
 
 \newcommand\textbox[1]{%
 	\parbox{.333\textwidth}{#1}%
@@ -42,7 +43,7 @@
 {}[\titlerule]
 
 \titleformat{\subsection}
-{}
+{\bf}
 {}
 {0.5em}
 {}
@@ -51,8 +52,10 @@
 \titlespacing{\subsection}{0em}{1em}{0em}
 \titlespacing{\subsubsection}{1em}{0em}{0.0em}
 
+\definecolor{darkgrey}{RGB}{050,050,050}
+
 \titleformat{\subsubsection}
-{}
+{\color{darkgrey}}
 {}
 {0em}
 {}
@@ -72,61 +75,97 @@
 
 \maketitle
 
+\vspace{1em}
+
+\begin{multicols}{2}
+
 \section{Work Experience}
 
-\subsection{\bfseries RedHat}
-\subsubsection{Ceph Storage Software Engineering Intern\hspace*{\fill} June 2020 --- August 2020}
+\subsection{RedHat}
+\subsubsection{Ceph Storage Software Engineering Intern\\ June 2020 --- August 2020}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[] CherryPy
-	\item[] REST-ful APIs
+	\item[--] Assisted in updating the Ceph dashboard API
+	\item[--] Web development using CherryPy
+	\item[--] \emph{Linux} and \emph{Python}
+	\item[--] REST-ful APIs
 \end{itemize}
 \noindent
 
-\subsection{\bfseries Draper}
-\subsubsection{Flight software testing Co-op for CRS2\hspace*{\fill} July 2018 --- January 2019}
+\subsection{Draper}
+\subsubsection{Flight software testing Co-op for CRS2\\ July 2018 --- January 2019}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[] {\bf Real time} development with limited resources
-	\item[] Testing hardware and critical path software
-	\item[] {\bf C} and {\bf Python} programming
-	\item[] {\bf VxWorks}
+	\item[--] Created a testing platform to test hardware in critical environments
+	\item[--] Testing hardware and critical path software
+	\item[--] \emph{C} and \emph{Python} programming
+	\item[--] \emph{VxWorks}
 \end{itemize}
 
-\subsection{\bfseries iSense}
-\subsubsection{Web developer for isenseproject.org\hspace*{\fill} May 2019 --- Aug 2019}
-\subsubsection{Android developer for isenseproject.org\hspace*{\fill} May 2018 --- July 2018}
+\subsection{iSense}
+\subsubsection{Android and Web developer for isenseproject.org\\ May 2018 --- Aug 2019}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[] Android/Java programming
-	\item[] Ruby on Rails
-	\item[] Project management
-	\item[] {\bf AWS}
+	\item[--] Android/Java programming
+	\item[--] Ruby on Rails
+	\item[--] \emph{AWS}
 \end{itemize}
+
+\columnbreak
 
 \section{Personal Projects}
 
-\subsubsection{{\bf 2D Game Engine}\hspace*{\fill} December 2021 --- Current Day}
+\subsection{2D Game Engine}
+\subsubsection{December 2021 --- Current Day}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[] Batched rendering using orthographic projection
-	\item[] Hardware accelerated graphics using vulkan
-	\item[] Programming in the zig programming language
+	\item[--] Batched rendering using orthographic projection
+	\item[--] Hardware accelerated graphics using vulkan
+	\item[--] Engineering in the zig programming language
+\end{itemize}
+
+\subsection{Immediate mode toolkit}
+\subsubsection{October 2021}
+\begin{itemize}[noitemsep, topsep=0pt]
+	\item[--] Using SDL\_Render and Zig
+	\item[--] Uses compile time reflection to convert
+		a tree data structure into a functional
+		application.
 \end{itemize}
 
 \section{Academic Projects}
 
-\subsection{{\bf Fedora Raspberry Pi Improvements}\hspace*{\fill} August 2019 --- May 2020 }
+\subsection{Fedora Raspberry Pi Improvements}
+\subsubsection{August 2019 --- May 2020 }
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[] Fedora Linux Remixing
-	\item[] GPIO programming
-	\item[] {\bf Shell Scripting}
+	\item[--] Fedora Linux Remixing
+	\item[--] GPIO programming
+	\item[--] \emph{Shell Scripting}
 \end{itemize}
 
+\end{multicols}
+
 \section{Relevant Coursework in Computer Science}
-\subsection{University of Massachusetts Lowell, Lowell MA\hspace*{\fill} Sept 2017 --- June 2021}
+\subsection{University of Massachusetts Lowell, Lowell MA\\  Sept 2017 --- June 2021}
 \subsubsection{85 credits towards BS}
 \subsubsection{Relevant Coursework:}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[] Graduate OS
-	\item[] Directed Study in Defensive Security
+	\item[--] Graduate OS
+	\item[--] Directed Study in Defensive Security
+	\item[--] Directed Study in Linux
 \end{itemize}
+
+\section{Skills}
+\begin{multicols}{2}
+	\subsection{Languages}
+	\begin{itemize}[noitemsep, topsep=0pt]
+		\item[--] C, C++, Java, Python, Zig
+	\end{itemize}
+	\subsection{Tools}
+	\begin{itemize}[noitemsep, topsep=0pt]
+		\item[--] docker, unix stdutils, gdb, git
+	\end{itemize}
+	\subsection{Professional}
+	\begin{itemize}[noitemsep, topsep=0pt]
+		\item[--] Communication, Teamwork, Ability to learn
+	\end{itemize}
+\end{multicols}
 
 
 \end{document}
