@@ -1,22 +1,32 @@
 body{
 	margin: 50px 20% 50px 20%;
 	border-radius: 15px;
-	box-shadow:  -24px -24px 48px #d7d7d7,
-	             24px 24px 48px #e9e9e9;
+	box-shadow:  -24px -24px 48px #0b0b0b,
+	             24px 24px 48px   #0a0a0a;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 30px;
 }
 
+html {
+	background-color: #0f0f0f;
+	color: grey;
+}
+
 #right { text-align: right; }
 
 h1{
-	font-size: 35pt;
+	font-size: 30pt;
+	padding: inherit;
+	margin:  inherit;
 }
 
 h2{
-	font-size: 20pt;
+	font-size: 16pt;
+	text-align: left;
+	padding: inherit;
+	margin:  inherit;
 }
 
 h3{
@@ -32,12 +42,13 @@ li{
 }
 
 a{
-	color: darkslategray;
+	color: lightgrey;
 	text-decoration: none;
 }
 
 header{
-	text-align: center;
+	text-align: left;
+	margin: 0px;
 }
 
 footer{
@@ -46,8 +57,7 @@ footer{
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%;
-	background-color: Azure;
+	width: 99%;
 }
 
 div.right {

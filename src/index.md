@@ -17,10 +17,11 @@
 # Christopher Odom
 
 ## [Github](https://github.com/Codom) --- [Gitlab](https://gitlab.com/Codom) --- [R&egrave;sum&egrave;](./resume.pdf)
+## christopher.r.odom@gmail.com 
 
 </header>
 
-## Who am I
+### Who am I
 
 I'm a software developer with interests in creating low latency, safe, and high
 performance code. I have professional experience writing testing software
@@ -37,11 +38,11 @@ in game engine and native application development.
 * Web and Android developer for the iSense project at the University
 of Massachusetts Lowell
 * This very website's [static page generator](https://github.com/Codom/Codom.github.io)
-* [Here are my dotfiles](https://gitlab.com/Codom/i_use_arch_btw) (I use arch btw)
+* [My dotfiles](https://gitlab.com/Codom/i_use_arch_btw)
 * More disorganized one-off projects on my [github](https://github.com/Codom) and
 [gitlab](https://gitlab.com/Codom)
 
 
 <footer>
-christopher.r.odom@gmail.com <div class="right"> [website source](https://github.com/Codom/Codom.github.io) </div>
+ <div class="right"> [website source](https://github.com/Codom/Codom.github.io) </div>
 </footer>
