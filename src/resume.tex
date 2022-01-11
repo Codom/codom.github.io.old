@@ -37,13 +37,13 @@
 }
 
 \titleformat{\section}
-{\large\bfseries\scshape}
+{\color{black}\large\bfseries}
 {}
 {0.ex}
 {}[\titlerule]
 
 \titleformat{\subsection}
-{\bf}
+{}
 {}
 {0.5em}
 {}
@@ -52,10 +52,11 @@
 \titlespacing{\subsection}{0em}{1em}{0em}
 \titlespacing{\subsubsection}{1em}{0em}{0.0em}
 
-\definecolor{darkgrey}{RGB}{050,050,050}
+\definecolor{grey}{RGB}{050,050,050}
+\definecolor{darkgrey}{RGB}{015,015,015}
 
 \titleformat{\subsubsection}
-{\color{darkgrey}}
+{}
 {}
 {0em}
 {}
@@ -66,15 +67,16 @@
 
 \begin{document}
 \setlength\multicolsep{0pt}
-
 \pagenumbering{gobble}
 
 
 \title{R\'esum\'e}
+
 \author{Christopher Odom}
 
 \maketitle
 
+\color{darkgrey}
 \vspace{1em}
 
 \begin{multicols}{2}
@@ -121,7 +123,7 @@
 \end{itemize}
 
 \subsection{Immediate mode toolkit}
-\subsubsection{October 2021}
+\subsubsection{October 2021 --- Current Day}
 \begin{itemize}[noitemsep, topsep=0pt]
 	\item[--] Using SDL\_Render and Zig
 	\item[--] Uses compile time reflection to convert
