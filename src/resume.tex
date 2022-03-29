@@ -37,15 +37,15 @@
 }
 
 \titleformat{\section}
-{\color{black}\large\bfseries}
+{\color{black}\Large\bfseries}
 {}
 {0.ex}
 {}[\titlerule]
 
 \titleformat{\subsection}
+{\Large\bfseries}
 {}
-{}
-{0.5em}
+{0em}
 {}
 
 \titlespacing{\section}{0em}{1em}{0.64em}
@@ -56,7 +56,7 @@
 \definecolor{darkgrey}{RGB}{015,015,015}
 
 \titleformat{\subsubsection}
-{}
+{\large}
 {}
 {0em}
 {}
@@ -64,6 +64,8 @@
 \setlength{\parskip}{0ex}
 
 \headheight = 0pt
+
+\setlength{\columnsep}{1 in}
 
 \begin{document}
 \setlength\multicolsep{0pt}
@@ -84,30 +86,22 @@
 \section{Work Experience}
 
 \subsection{RedHat}
-\subsubsection{Ceph Storage Software Engineering Intern\\ June 2020 --- August 2020}
+\subsubsection{Storage Software Engineering Intern\\ June 2020 --- August 2020}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Assisted in updating the Ceph dashboard API
-	\item[--] Web development using CherryPy
-	\item[--] \emph{Linux} and \emph{Python}
-	\item[--] REST-ful APIs
+	\item[--] Free software productization
 \end{itemize}
-\noindent
 
 \subsection{Draper}
-\subsubsection{Flight software testing Co-op for CRS2\\ July 2018 --- January 2019}
+\subsubsection{Co-op intern\\ July 2018 --- January 2019}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Created a testing platform to test hardware in critical environments
-	\item[--] Testing hardware and critical path software
-	\item[--] \emph{C} and \emph{Python} programming
-	\item[--] \emph{VxWorks}
+	\item[--] Realtime software testing
+	\item[--] Created minimal environment for hardware testing
 \end{itemize}
 
 \subsection{iSense}
-\subsubsection{Android and Web developer for isenseproject.org\\ May 2018 --- Aug 2019}
+\subsubsection{Lab tech for isenseproject.org\\ May 2018 --- Aug 2019}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Android/Java programming
-	\item[--] Ruby on Rails
-	\item[--] \emph{AWS}
+	\item[--] Web and Android development
 \end{itemize}
 
 \columnbreak
@@ -115,21 +109,30 @@
 \section{Personal Projects}
 
 \subsection{2D Game Engine}
-\subsubsection{December 2021 --- Current Day}
+\subsubsection{December 2021}
 \begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Batched rendering using orthographic projection
-	\item[--] Hardware accelerated graphics using vulkan
-	\item[--] Engineering in the zig programming language
+	\item[--] Written using zig
+	\item[--] Using SDL
+	\item[--] Custom scripting language
 \end{itemize}
 
 \subsection{Immediate mode toolkit}
-\subsubsection{October 2021 --- Current Day}
+\subsubsection{October 2021}
 \begin{itemize}[noitemsep, topsep=0pt]
 	\item[--] Using SDL\_Render and Zig
-	\item[--] Uses compile time reflection to convert
-		a tree data structure into a functional
-		application.
 \end{itemize}
+
+\subsection{Vulkan Tutorial}
+\subsubsection{January 2021}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item[--] vulkan-tutorial.com/
+	\item[--] Using cpp, glfw, and stb libraries, implemented a simple
+        graphics pipeline that renders an obj file and rotates it
+	\item[--] Slightly restructured from the tutorial 
+        to force personal understanding
+\end{itemize}
+
+\end{multicols}
 
 \section{Academic Projects}
 
@@ -141,17 +144,10 @@
 	\item[--] \emph{Shell Scripting}
 \end{itemize}
 
-\end{multicols}
-
-\section{Relevant Coursework in Computer Science}
-\subsection{University of Massachusetts Lowell, Lowell MA\\  Sept 2017 --- June 2021}
-\subsubsection{85 credits towards BS}
-\subsubsection{Relevant Coursework:}
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Graduate OS
-	\item[--] Directed Study in Defensive Security
-	\item[--] Directed Study in Linux
-\end{itemize}
+\section{Coursework in Computer Science}
+\subsection{University of Massachusetts Lowell, Lowell MA\\  Sept 2017 --- Dec 2022}
+\subsubsection{Expected Graduation: December 2022}
+\noindent
 
 \section{Skills}
 \begin{multicols}{2}
