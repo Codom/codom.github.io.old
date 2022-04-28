@@ -28,6 +28,12 @@ performance code. I have professional experience writing testing software
 for hardware, making improvements to android and web apps, and non-professional experience
 in game engine and native application development.
 
+### Current Interests
+
+I've been researching mid to low level graphics during my gap year,
+as well as wasm development. You can see my emscripten experiments
+[Here](hello.html)
+
 ### Professional work includes
 * REST API developer for Red Hat
 * Embedded software tester for Draper
