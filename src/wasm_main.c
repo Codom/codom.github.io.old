@@ -17,10 +17,31 @@
 #include <emscripten.h>
 #endif
 
+// Build related includes
+#include "SDL_FontCache/SDL_FontCache.h"
+#include "SDL_FontCache/SDL_FontCache.c"
+
 SDL_Window *window;
 SDL_Renderer *renderer;
 SDL_Surface *surface;
 int w = 500, h = 500;
+
+// Just dump markdown in here for the fc to
+// draw
+char* page_contents;
+void load_page() {
+    FILE* fp = fopen("src/index.md", "r");
+    fseek(fp, 0, SEEK_END);
+    long len = ftell(fp);
+    fseek(fp, 0, SEEK_SET);
+    page_contents = malloc(sizeof(*page_contents) * len+1);
+    for(long i = 0; i < len; ++i) {
+        page_contents[i] = fgetc(fp);
+    }
+    page_contents[len] = 0;
+}
+
+FC_Font* font;
 
 int offset = 0;
 
@@ -83,11 +104,12 @@ void draw() {
         return;
     }
 
-    SDL_Rect rect = {0,0,10,10};
+    // SDL_Rect rect = {0,0,10,10};
 
     SDL_RenderClear(renderer);
     SDL_RenderCopy(renderer, surface_tex, NULL, NULL);
-    SDL_RenderFillRect(renderer, &rect);
+    FC_Draw(font, renderer, 0, 0, page_contents, "");
+    // SDL_RenderFillRect(renderer, &rect);
     SDL_RenderPresent(renderer);
 
     SDL_DestroyTexture(surface_tex);
@@ -100,6 +122,16 @@ int main() {
     SDL_CreateWindowAndRenderer(w, h, 0, &window, &renderer);
     if(!renderer) {
         return 1;
+    }
+
+    load_page();
+
+    font = FC_CreateFont();
+    FC_LoadFont(font, renderer, "src/SDL_FontCache/test/fonts/FreeSans.ttf", 20, FC_MakeColor(0,0,0,255), TTF_STYLE_NORMAL);
+
+    if(!font) {
+        emscripten_log(EM_LOG_ERROR, "Font load error...");
+        emscripten_log(EM_LOG_ERROR, SDL_GetError());
     }
 
     surface = SDL_CreateRGBSurface(0, w, h, 32, 0, 0, 0, 0);
