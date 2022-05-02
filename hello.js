@@ -200,7 +200,7 @@ Module['FS_createPath']("/src/SDL_FontCache/test", "fonts", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/src/SDL_FontCache/test/fonts/FreeSans.ttf", "start": 0, "end": 253780}, {"filename": "/src/index.md", "start": 253780, "end": 255807}], "remote_package_size": 255807, "package_uuid": "37677ab4-2127-4cc2-9efe-1360178bc070"});
+    loadPackage({"files": [{"filename": "/src/SDL_FontCache/test/fonts/FreeSans.ttf", "start": 0, "end": 253780}, {"filename": "/src/index.md", "start": 253780, "end": 255807}], "remote_package_size": 255807, "package_uuid": "6e46676b-51b9-4d66-931c-d4b0684c8c79"});
 
   })();
 
