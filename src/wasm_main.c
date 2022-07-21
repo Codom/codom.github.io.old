@@ -29,7 +29,7 @@ int w = 500, h = 500;
 // Just dump markdown in here for the fc to
 // draw
 char* page_contents;
-void load_page() {
+void load_page (void) {
     FILE* fp = fopen("src/index.md", "r");
     fseek(fp, 0, SEEK_END);
     long len = ftell(fp);
@@ -46,15 +46,15 @@ FC_Font* font;
 int offset = 0;
 
 // Some EM_JS hacks
-EM_JS(int, canvas_get_width, (), {
+EM_JS(int, canvas_get_width, (void), {
     return canvas.width;
 })
 
-EM_JS(int, canvas_get_height, (), {
+EM_JS(int, canvas_get_height, (void), {
   return canvas.height;
 })
 
-EM_JS(int, canvas_resize, (), {
+EM_JS(int, canvas_resize, (void), {
    // look up the size the canvas is being displayed
    const width = canvas.clientWidth;
    const height = canvas.clientHeight;
@@ -69,7 +69,7 @@ EM_JS(int, canvas_resize, (), {
    return false;
 })
 
-void draw() {
+void draw(void) {
     if(SDL_MUSTLOCK(surface)) SDL_LockSurface(surface);
 
     if(canvas_resize()) {
@@ -115,7 +115,7 @@ void draw() {
     SDL_DestroyTexture(surface_tex);
 }
 
-int main() {
+int main(void) {
     SDL_Init(SDL_INIT_VIDEO);
     w = canvas_get_width();
     h = canvas_get_height();

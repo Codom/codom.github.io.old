@@ -1,169 +1,170 @@
-% vim:ft=tex:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
 %
-\documentclass[11pt]{article}
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{enumitem}
-\usepackage{titlesec}
-\usepackage{titling}
-\usepackage{multicol}
-\usepackage{microtype}
-% \usepackage{libspum}
-\usepackage[margin=0.75in]{geometry}
-\usepackage{fancyhdr}
-\usepackage{changepage}
-\usepackage{xcolor}
-\usepackage{setspace}
-\singlespacing
-\usepackage{bold-extra}
-\usepackage[T1]{fontenc}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
 
-\setlength{\columnsep}{1cm}
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 
-\newcommand\textbox[1]{%
-	\parbox{.333\textwidth}{#1}%
-}
-
-\newcommand\describe[2]{
-	\hangindent=1em
-	\hangafter=1
-	\noindent\hspace{1em}{\it#1}: #2
-}
-
-\renewcommand{\maketitle}
-{
-	\Huge \noindent \theauthor \\
-	\large\noindent christopher.r.odom@gmail.com | chrisodom.org \\
-	Medford, MA | 781-866-1692
-}
-
-\titleformat{\section}
-{\color{black}\Large\bfseries}
-{}
-{0.ex}
-{}[\titlerule]
-
-\titleformat{\subsection}
-{\Large\bfseries}
-{}
-{0em}
-{}
-
-\titlespacing{\section}{0em}{1em}{0.64em}
-\titlespacing{\subsection}{0em}{1em}{0em}
-\titlespacing{\subsubsection}{1em}{0em}{0.0em}
-
-\definecolor{grey}{RGB}{050,050,050}
-\definecolor{darkgrey}{RGB}{015,015,015}
-
-\titleformat{\subsubsection}
-{\large}
-{}
-{0em}
-{}
-
-\setlength{\parskip}{0ex}
-
-\headheight = 0pt
-
-\setlength{\columnsep}{1 in}
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-\setlength\multicolsep{0pt}
-\pagenumbering{gobble}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Christopher}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Odom}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.23\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{10}{Greater Boston, US}\\
+	\icon{Phone}{10}{781 866 1692}\\
+	\icon{Globe}{10}{\href{https://chrisodom.org}{chrisodom.org}}\\
+\end{minipage}
+\begin{minipage}[t]{0.28\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{At}{10}{\href{mailto:christopher.r.odom@gmail.com}{christopher.r.odom@gmail.com}}\\	
+	\icon{Github}{10}{\href{https://github.com/codom}{github.com/codom}}\\
+	\icon{Linkedin}{10}{\href{https://www.linkedin.com/in/christopher-r-odom/}{linkedin.com/christopher-r-odom}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Introduction/Skills}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    I am an aspiring software developer with a wide variety of intern experience
+    and non-professional practice. I am coming out of an experience gap, but strive
+    to meet and exceed previous successes.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Python}{100}
+		\baritem{C}{85}
+		\baritem{Git}{80}
+		\baritem{Linux}{75}
+	\end{barchart}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Internships}
+
+\begin{entrylist}
+	\entry
+		{06/20 -- 08/20}
+		{Software Engineering Intern}
+		{Red Hat}
+		{Assisted in web API upgrades to the Ceph Dashboard\\
+        \texttt{Python}\slashsep\texttt{CherryPy}}
+	\entry
+		{07/18 -- 01/19}
+		{Software Engineering and Testing Co-Op}
+		{Draper}
+		{Aided in guidance and navigation flight software development by creating
+        tools for hardware and software engineers to test various software and
+        hardware components to comply with strict CRS2 contract requirements (For ISS Resupply)\\
+        \texttt{C}\slashsep\texttt{VxWorks}\slashsep\texttt{Python}\slashsep\texttt{Sockets}}
+	\entry
+		{2018 -- 2019\\\footnotesize{part time}}
+		{Lab tech}
+        {ECG Lab, Umass Lowell}
+		{Aided in CS education research by maintaining and upgrading systems in use at the ECG lab,
+        inluding the iSense web service and it's associated appinventor plugin\\
+        \texttt{Ruby on Rails}\slashsep\texttt{Linux}\slashsep\texttt{AWS}\slashsep\texttt{Java (Android)}}
+\end{entrylist}
+
+\cvsect{Extra-Cirriculars}
+
+\begin{entrylist}
+	\entry
+		{2021-2022}
+		{Projects in GameDev}
+        {}
+        {I filled this gap year up with a bunch of projects in order to teach myself low level graphics programming,
+        none of which are localized to a single project I can show, but include the following:
+        \begin{itemize}\itemsep=0em
+            \item Development of various entity systems interacting with SDL
+            \item Playing with \href{https://github.com/haasn/libplacebo}{libplacebo} (C rendering framework for MPV)
+            \item Completion of the \href{https://github.com/Codom/Vulkan-Tutorial}{Vulkan Tutorial}
+        \end{itemize}
+        \texttt{C++}\slashsep\texttt{Zig}\slashsep\texttt{glsl}\slashsep\texttt{Vulkan}}
+	\entry
+		{2019 -- 2020}
+		{Fedora on Raspberry Pi}
+        {}
+        {Worked on supplying a sane environment for students using Fedora on the Raspberry Pi,
+        which turned into a larger intiative within RedHat \\
+        \texttt{C}\slashsep\texttt{Shell Scripting}\slashsep\texttt{Linux Userspace}}
+	\entry
+		{2019 -- 2020}
+		{CCDC}
+        {}
+        {Worked in a fast paced environment in order to propel our school's ccdc team into
+        the NECCDC regional\\
+        \texttt{Shell Scripting}\slashsep\texttt{Linux Defensive SecOps}}
+\end{entrylist}
 
 
-\title{R\'esum\'e}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
 
-\author{Christopher Odom}
+\cvsect{Education}
 
-\maketitle
-
-\color{darkgrey}
-\vspace{1em}
-
-\begin{multicols}{2}
-
-\section{Work Experience}
-
-\subsection{RedHat}
-\subsubsection{Storage Software Engineering Intern\\ June 2020 --- August 2020}
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Free software productization
-\end{itemize}
-
-\subsection{Draper}
-\subsubsection{Co-op intern\\ July 2018 --- January 2019}
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Realtime software testing
-	\item[--] Created minimal environment for hardware testing
-\end{itemize}
-
-\subsection{iSense}
-\subsubsection{Lab tech for isenseproject.org\\ May 2018 --- Aug 2019}
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Web and Android development
-\end{itemize}
-
-\columnbreak
-
-\section{Personal Projects}
-
-\subsection{2D Game Engine}
-\subsubsection{December 2021 --- Today}
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Written using zig
-	\item[--] Using SDL
-	\item[--] Custom scripting language
-\end{itemize}
-
-\subsection{Immediate mode toolkit}
-\subsubsection{October 2021}
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Using SDL\_Render and Zig
-\end{itemize}
-
-\subsection{Vulkan Tutorial}
-\subsubsection{January 2021}
-\begin{itemize}[noitemsep, topsep=0pt]
-    \item[--] vulkan-tutorial.com/
-	\item[--] Using cpp, glfw, and stb libraries, implemented a simple
-        graphics pipeline that renders an obj file and rotates it
-	\item[--] Slightly restructured from the tutorial 
-        to force personal understanding
-\end{itemize}
-
-\end{multicols}
-
-\section{Academic Projects}
-
-\subsection{Fedora Raspberry Pi Improvements}
-\subsubsection{August 2019 --- May 2020 }
-\begin{itemize}[noitemsep, topsep=0pt]
-	\item[--] Fedora Linux Remixing
-	\item[--] GPIO programming
-	\item[--] \emph{Shell Scripting}
-\end{itemize}
-
-\section{Coursework in Computer Science}
-\subsection{University of Massachusetts Lowell, Lowell MA\\  Sept 2017 --- Jun 2021}
-\subsubsection{82 credits towards graduation}
-\noindent
-
-\section{Skills}
-\begin{multicols}{2}
-	\subsection{Languages}
-	\begin{itemize}[noitemsep, topsep=0pt]
-		\item[--] C, C++, Java, Python, Zig
-	\end{itemize}
-	\subsection{Tools}
-	\begin{itemize}[noitemsep, topsep=0pt]
-		\item[--] docker, unix stdutils, gdb, git
-	\end{itemize}
-	\subsection{Professional}
-	\begin{itemize}[noitemsep, topsep=0pt]
-		\item[--] Communication, Teamwork, Ability to learn
-	\end{itemize}
-\end{multicols}
-
+\begin{entrylist}
+	\entry
+		{2017 -- 2020}
+		{Coursework towards Bachelor's}
+		{University of Massachusetts Lowell}
+		{
+            Learned basics, Comp I -- IV, OS, Architecture, etc. \\
+            Have 82 Credits toward degree, no current plans on completion
+        }
+\end{entrylist}
 
 \end{document}

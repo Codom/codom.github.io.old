@@ -4,7 +4,7 @@ MARKC := markdown
 TEXC  := pdflatex
 
 CC      := emcc
-CFLAGS  := -Wall -Werror -pedantic -s WASM=1 -os
+CFLAGS  := -Wall -s WASM=1 -os
 CFLAGS  += `pkg-config sdl2 --cflags`
 LFLAGS := -s USE_SDL_TTF=2 -s USE_SDL=2 -s FULL_ES2=1 --preload-file src/SDL_FontCache/test/fonts/FreeSans.ttf --preload-file src/index.md -lm
 # LFLAGS += `pkg-config sdl2 --libs`

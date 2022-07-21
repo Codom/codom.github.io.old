@@ -4,3 +4,6 @@
 *.gz
 *.fdb_latexmk
 .ccls
+.ccls-cache
+*.out
+*.cls
