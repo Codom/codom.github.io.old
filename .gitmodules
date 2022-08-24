@@ -1,3 +1,6 @@
 [submodule "src/SDL_FontCache"]
 	path = src/SDL_FontCache
 	url = https://github.com/grimfang4/SDL_FontCache
+[submodule "src/wasm-canvas"]
+	path = src/wasm-canvas
+	url = https://github.com/alextyner/wasm-canvas
