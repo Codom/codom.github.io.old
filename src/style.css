@@ -1,50 +1,58 @@
 body{
-	margin: 50px 20% 50px 20%;
-	border-radius: 15px;
-	box-shadow:  -24px -24px 48px #0b0b0b,
-	             24px 24px 48px   #0a0a0a;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 30px;
+	margin: 1.75cm 10% 50px 10%;
+    /*
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    */
 }
 
+/*
 html {
 	background-color: #0f0f0f;
 	color: grey;
 }
+*/
 
 #right { text-align: right; }
 
 h1{
-	font-size: 30pt;
+    font-family: sans-serif;
+	font-size: 35pt;
 	padding: inherit;
 	margin:  inherit;
 }
 
 h2{
-	font-size: 16pt;
+    font-family: sans-serif;
+	font-size: 18pt;
 	text-align: left;
 	padding: inherit;
 	margin:  inherit;
 }
 
 h3{
-	font-size: 15pt;
+    font-family: sans-serif;
+	font-size: 18pt;
 }
 
 p{
-	font-size: 14pt;
+    font-family: sans-serif;
+	font-size: 18pt;
 }
 
 li{
-	font-size: 14pt;
+    font-family: sans-serif;
+	font-size: 18pt;
 }
 
+/*
 a{
 	color: lightgrey;
 	text-decoration: none;
 }
+*/
 
 header{
 	text-align: left;
