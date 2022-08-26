@@ -1,27 +1,28 @@
-PAGES := $(patsubst src/%.md, %.html, $(wildcard src/*.md))
-TEX   := $(patsubst src/%.tex, %.pdf, $(wildcard src/*.tex))
+PAGES := $(patsubst src/%.md,  docs/%.html, $(wildcard src/*.md))
+TEX   := $(patsubst src/%.tex, docs/%.pdf, $(wildcard src/*.tex))
 MARKC := markdown
 TEXC  := pdflatex
+OUTDIR := docs/
 
 CC      := emcc
 CFLAGS  := -Wall -Isrc/wasm-canvas/include
-# LFLAGS += `pkg-config sdl2 --libs`
 
-all : $(TEX) page.wasm $(PAGES)
+all : $(TEX) docs/page.wasm $(PAGES)
 
 deploy: all
-	emrun hello.html
+	cd docs && emrun index.html
 
-%.html : src/%.md
+docs/%.html : src/%.md
 	touch $@ && $(MARKC) $< > $@ && cat src/global >> $@
 
-%.pdf : src/%.tex
-	$(TEXC) $<
+docs/%.pdf : src/%.tex
+	TEXINPUTS=".:./src:" $(TEXC) $<
+	mv *.pdf docs/
 
-page.wasm : src/wasm_main.c
-	$(CC) $(CFLAGS) --shell-file template.html src/wasm_main.c src/wasm-canvas/src/canvas.c src/wasm-canvas/src/window.c -o wasm.html
+docs/page.wasm : src/wasm_main.c
+	$(CC) $(CFLAGS) --shell-file template.html src/wasm_main.c src/wasm-canvas/src/canvas.c src/wasm-canvas/src/window.c -o docs/wasm.html
 
 
 
 .phony clean :
-	rm $(PAGES) $(TEX)
+	rm docs/*html docs/*pdf docs/*js docs/*wasm resume.*
