@@ -12,15 +12,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
 
-<header>
-
-# Christopher Odom
-
-## [Github](https://github.com/Codom) --- [Gitlab](https://gitlab.com/Codom) --- [R&egrave;sum&egrave;](./resume.pdf)
-## christopher.r.odom@gmail.com 
-
-</header>
-
 ### Who am I
 
 I'm a software developer with interests in creating low latency, safe, and high
@@ -49,6 +40,3 @@ of Massachusetts Lowell
 [gitlab](https://gitlab.com/Codom)
 
 
-<footer>
- <div class="right"> [website source](https://github.com/Codom/Codom.github.io) </div>
-</footer>

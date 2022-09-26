@@ -8,4 +8,3 @@
 *.out
 *.cls
 template.html wasm.html
-docs/index.html docs/resume.pdf docs/style.css docs/wasm.html docs/wasm.js docs/wasm.wasm
