@@ -13,8 +13,17 @@ var container;
 var camera, scene, renderer, clock;
 var uniforms;
 
-init();
-animate();
+var frag_shdr;
+
+fetch("js/frag.glsl").then((response) => {
+	return response.text();
+}).then((in_frag_shdr) => {
+	frag_shdr = in_frag_shdr;
+	console.log(frag_shdr);
+	init();
+	animate();
+})
+
 function init() {
 	container = document.getElementById( 'animContainer' );
 
@@ -34,8 +43,8 @@ function init() {
 
 	var material = new THREE.ShaderMaterial( {
 		uniforms: uniforms,
-		vertexShader: document.getElementById( 'vertexShader' ).textContent,
-		fragmentShader: document.getElementById( 'fragmentShader' ).textContent
+		vertexShader:   document.getElementById('vertexShader').text, 
+		fragmentShader: frag_shdr
 	} );
 
 	var mesh = new THREE.Mesh( geometry, material );

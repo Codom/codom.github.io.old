@@ -25,7 +25,6 @@ vanilla markdown
 
 import markdown
 
-
 # This is ugly lmao
 header = "".join(["<!DOCTYPE html>\n<html>\n<header>",
     markdown.markdown("""
@@ -51,29 +50,12 @@ footer = """
     <script src="js/three.js"></script>
     <script id="vertexShader" type="x-shader/x-vertex">
         void main() {
-            gl_Position = vec4( position, 1.0 );
-        }
-    </script>
-    <script id="fragmentShader" type="x-shader/x-fragment">
-        uniform vec2 u_resolution;
-        uniform float u_time;
-
-        void main() {
-            // vec2 st = gl_FragCoord.xy/u_resolution.xy;
-            // gl_FragColor=vec4(st.x,st.y,0.0,1.0);
-
-            vec2 q = gl_FragCoord.xy;
-            vec2 r = u_resolution.xy, 
-                     p = q-.5*r;
-            float l=length(p/=r.y),z=u_time;
-            vec4 f;
-            for( int i=0; i<4; )
-                f[i++] = .01/length(fract( q/r + p/l* (1.0*sin(z+=.07 / 20.0)+1.) * abs(0.8*sin(l*9.-z-z / 20.0)) )-.5) / l;
-            gl_FragColor = vec4(0.5, 0.5, 0.5, 0.5) * f;
+        	gl_Position = vec4( position, 1.0 );
         }
     </script>
 
-      <script src="animation.js"></script>
+    <script src="animation.js"></script>
+
 </body>
 </html>
 """
