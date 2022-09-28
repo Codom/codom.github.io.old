@@ -38,5 +38,3 @@ of Massachusetts Lowell
 * [My dotfiles](https://gitlab.com/Codom/i_use_arch_btw)
 * More disorganized one-off projects on my [github](https://github.com/Codom) and
 [gitlab](https://gitlab.com/Codom)
-
-

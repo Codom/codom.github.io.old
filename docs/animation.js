@@ -54,7 +54,7 @@ function init() {
 
 	var material = new THREE.ShaderMaterial( {
 		uniforms: uniforms,
-		vertexShader:   document.getElementById('vertexShader').text, 
+		vertexShader:   vert_shdr, 
 		fragmentShader: frag_shdr
 	} );
 

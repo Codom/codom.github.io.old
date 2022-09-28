@@ -1,32 +1,4 @@
-#! /usr/bin/env python3
-# -*- coding: utf-8 -*-
-# vim:fenc=utf-8
-#
-# Copyright © 2022 Christopher Odom <christopher.r.odom@gmail.com>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-"""
-Builds a webpage, depends on python-markdown
-
-Module wraps the markdown parser to add custom styling to
-vanilla markdown
-"""
-
-import markdown
-
-# This is ugly lmao
-header = """
 <!DOCTYPE html>
 <html>
 
@@ -39,10 +11,12 @@ header = """
     <h2 id="subtitle"><a href="https://github.com/Codom">Github</a> <a href="https://gitlab.com/Codom">Gitlab</a> <a href="./resume.pdf">R&egrave;sum&egrave;</a> <a href="./blog.html">Blog</a></h2>
 </div>
 </header>
-"""
 
-# Footer is way cleaner, contains all of the stuff for the bg animation
-footer = """
+<h1>Blogging</h1>
+<p>I don't actively blog, however sometimes I do have some interesting
+things to say.</p>
+<h2><a href="static_wobsite.html">Overhaul of static website generation - 09/28/2022</a></h2>
+
     <div id = "animContainer"></div>
     <script src="js/three.js"></script>
     <script src="animation.js"></script>
@@ -50,22 +24,3 @@ footer = """
 
 </body>
 </html>
-"""
-
-def main():
-    process_markdown("index")
-    process_markdown("blog")
-    process_markdown("static_wobsite")
-
-def process_markdown(page: str):
-    with open(f"src/{page}.md", "r", encoding="utf-8") as in_file:
-        text = in_file.read()
-
-    html = "".join([header, "\n", markdown.markdown(text, extensions=['markdown.extensions.fenced_code']), "\n", footer])
-
-    print(f"outputting to docs/{page}.html")
-    with open(f"docs/{page}.html", "w", encoding="utf-8") as out_file:
-        out_file.write(html)
-
-if __name__ == "__main__":
-    main()
