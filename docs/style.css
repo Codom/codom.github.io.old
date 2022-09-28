@@ -15,6 +15,10 @@ html {
 	background-color: white;
 }
 
+pre {
+	overflow-x: auto;
+}
+
 body {
        border-radius: 2em;
        /*
