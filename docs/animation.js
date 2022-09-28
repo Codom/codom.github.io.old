@@ -14,15 +14,26 @@ var camera, scene, renderer, clock;
 var uniforms;
 
 var frag_shdr;
+var vert_shdr;
 
 fetch("js/frag.glsl").then((response) => {
 	return response.text();
 }).then((in_frag_shdr) => {
 	frag_shdr = in_frag_shdr;
 	console.log(frag_shdr);
+}).then(() => {
+	return fetch("js/vert.glsl")
+}).then((response) => {
+	return response.text()
+}).then((in_vert_shdr) => {
+	vert_shdr = in_vert_shdr;
+	console.log(vert_shdr);
 	init();
 	animate();
+}).catch((e) => {
+	console.log(e)
 })
+
 
 function init() {
 	container = document.getElementById( 'animContainer' );
@@ -52,6 +63,7 @@ function init() {
 
 	renderer = new THREE.WebGLRenderer();
 	renderer.setPixelRatio( window.devicePixelRatio );
+	renderer.setClearColor(0xffffff, 1);
 
 	container.appendChild( renderer.domElement );
 
@@ -68,6 +80,7 @@ function onWindowResize( event ) {
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	uniforms.u_resolution.value.x = renderer.domElement.width;
 	uniforms.u_resolution.value.y = renderer.domElement.height;
+	uniforms.u_resolution.value.z = 1;
 }
 
 function animate() {
