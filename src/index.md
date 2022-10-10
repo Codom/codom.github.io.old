@@ -22,8 +22,7 @@ in game engine and native application development.
 ### Current Interests
 
 I've been researching mid to low level graphics during my gap year,
-as well as wasm development. You can see my emscripten experiments
-[Here](wasm.html)
+as well as wasm development.
 
 ### Professional work includes
 * REST API developer for Red Hat

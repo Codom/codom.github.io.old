@@ -21,9 +21,20 @@ Builds a webpage, depends on python-markdown
 
 Module wraps the markdown parser to add custom styling to
 vanilla markdown
+
+TODO list:
+[ ] Build resume
 """
 
 import markdown
+import subprocess
+import os
+
+def main():
+    process_resume()
+    process_markdown("index")
+    process_markdown("blog")
+    process_markdown("static_wobsite")
 
 # This is ugly lmao
 header = """
@@ -52,11 +63,6 @@ footer = """
 </html>
 """
 
-def main():
-    process_markdown("index")
-    process_markdown("blog")
-    process_markdown("static_wobsite")
-
 def process_markdown(page: str):
     with open(f"src/{page}.md", "r", encoding="utf-8") as in_file:
         text = in_file.read()
@@ -66,6 +72,15 @@ def process_markdown(page: str):
     print(f"outputting to docs/{page}.html")
     with open(f"docs/{page}.html", "w", encoding="utf-8") as out_file:
         out_file.write(html)
+
+def process_resume():
+    latex_env = os.environ | {"TEXINPUTS": ".:./src:"}
+    print(latex_env)
+    print("Compiling resume...")
+    subprocess.run(["pdflatex", "src/resume.tex"], env=latex_env)
+    subprocess.run(["mv", "resume.pdf", "docs/"])
+    subprocess.run(["rm", "resume.aux", "resume.log", "resume.out"])
+    print("done")
 
 if __name__ == "__main__":
     main()
