@@ -1,8 +1,6 @@
 # Codom.github.io
-This project uses a make-based static website generator/resume typesetter,
-and depends on markdown and latex.
+This is the implementation of a static site I host at chrisodom.org.
 
-Simply cd into `src` and run `make`, and all markdown files in `src` will
-produce a corresponding `html` file in the root directory, and will have
-`src/style.css` linked in and whatever in `src/global` appended to the end
-of each html file.
+If you want to repurpose it for your own uses, simply add markdown files
+to the src/ directory and add a process_markdown() call to the build.py file,
+then run it.
