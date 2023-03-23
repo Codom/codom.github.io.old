@@ -20,16 +20,12 @@ performance code. I have professional experience writing testing software
 for hardware, making improvements to android and web apps, and non-professional experience
 in game engine and native application development.
 
-### Current Interests
-
-I've been researching mid to low level graphics during my gap year,
-as well as wasm development.
-
 ### Professional work includes
 * REST API developer for Red Hat
 * Embedded software tester for Draper
 
 ### Relevant other work includes
+* [Amp Impulse Simulator](https://github.com/Codom/SimpleGuitarAmp)
 * Improvements to Fedora on the RPI
 * [NECCDC](https://neccdl.org/neccdc/) team member
 * Web and Android developer for the iSense project at the University
