@@ -21,6 +21,8 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{enumitem}
+\usepackage{multicol}
 
 %----------------------------------------------------------------------------------------
 
@@ -123,45 +125,43 @@
 
 \begin{entrylist}
 	\entry
-	{2022}
+	{2023}
 	{\href{https://chrisodom.org/}{Personal Website}}
         {\href{https://github.com/Codom/codom.github.io}{https://github.com/Codom/codom.github.io}}
-        {Custom static website generator built on top of python-markdown and using three.js for modern
-	graphics. Hosted on ipfs using \href{https://fleek.co}{\bf fleek} pipeline
-	\\
-	\texttt{Python}\slashsep\texttt{Js}\slashsep\texttt{GLSL}}
+        {
+		Custom static website generator built on top of python-markdown and using three.js for modern
+		graphics. Hosted on ipfs using \href{https://fleek.co}{\bf fleek} pipeline
+		\\
+		\texttt{Python}\slashsep\texttt{Js}\slashsep\texttt{GLSL}
+	}
 
 	\entry
-	{2022}
-        {C allocators}
-        {\href{https://github.com/Codom/liballoc}{https://github.com/Codom/liballoc}}
-        {Created an stb-like interface for polymorphic allocators in a single C header\\
-        \texttt{C}\slashsep\texttt{TDD}}
+	{2023}
+        {Guitar Amp Simulator}
+        {\href{https://github.com/Codom/SimpleGuitarAmp}{https://github.com/Codom/SimpleGuitarAmp}}
+        {
+		Using a mixture of C, Zig, and Rust, created a CLAP plugin that simulates 
+		a guitar amp in realtime
+		\\
+        	\texttt{Zig}\slashsep\texttt{C}
+	}
 
 	\entry
         {2022}
-        {Stupid Server}
-        {\href{https://github.com/Codom/stupid-server}{https://github.com/Codom/stupid-server}}
-        {Stupid Simple http server built on top of simple socket primitives
-        in the Zig programming language\\
-        \texttt{Zig}\slashsep\texttt{HTTP}\slashsep{HTML}}
+        {liballoc}
+        {\href{https://github.com/Codom/liballoc}{https://github.com/Codom/liballoc}}
+        {
+		Implemented a single header api for sandboxing memory into a hierarchy of different heaps
+        that use different allocation algorithms. Includes a bump allocator, malloc/free integration,
+        and limited sanitizer integration.
+		\\
+        	\texttt{C}\slashsep{TDD}
+	}
 \end{entrylist}
 
 \cvsect{Extra-Cirriculars}
 
 \begin{entrylist}
-	\entry
-		{2021-2022}
-		{Projects in GameDev}
-        {}
-        {I filled this gap year up with a bunch of projects in order to teach myself low level graphics programming
-        \begin{itemize}\itemsep=0em
-            \item Development of various entity systems interacting with SDL
-	    \item Playing with {\bf \href{https://github.com/haasn/libplacebo}{libplacebo}}
-		    (C rendering framework for MPV)
-	    \item Completion of the {\bf \href{https://github.com/Codom/Vulkan-Tutorial}{Vulkan Tutorial}}
-        \end{itemize}
-        \texttt{C++}\slashsep\texttt{Zig}\slashsep\texttt{GLSL}\slashsep\texttt{Vulkan}}
 	\entry
 		{2019 -- 2020}
 		{Fedora on Raspberry Pi}
@@ -182,9 +182,21 @@
         \texttt{Shell Scripting}\slashsep\texttt{Linux Defensive SecOps}}
 \end{entrylist}
 
-
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+        \entry
+                {2017 -- 2021}
+                {Coursework in Computer Science}
+                {UMass Lowell}
+                {
+                Completed graduate coursework in OS, undergrad courses dealing with Architecture, ASM, Algorithms, etc.
+                and completed projects related to vm and language development.
+                }
+\end{entrylist}
 
 \end{document}
