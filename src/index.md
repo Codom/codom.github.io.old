@@ -15,16 +15,17 @@
 
 ### Who am I
 
-I'm a software developer with interests in creating low latency, safe, and high
-performance code. I have professional experience writing testing software
-for hardware, making improvements to android and web apps, and non-professional experience
-in game engine and native application development.
+I'm a software developer with an interest in creating low-latency, safe, and
+high-performance code. I have professional experience writing testing software
+for hardware, making improvements to Android and web apps, and non-professional
+experience in game-engine and native application development.
 
 ### Professional work includes
 * REST API developer for Red Hat
 * Embedded software tester for Draper
 
 ### Relevant other work includes
+* Hobby game-dev
 * [Amp Impulse Simulator](https://github.com/Codom/SimpleGuitarAmp)
 * Improvements to Fedora on the RPI
 * [NECCDC](https://neccdl.org/neccdc/) team member
@@ -32,5 +33,5 @@ in game engine and native application development.
 of Massachusetts Lowell
 * This very website's [static page generator](https://github.com/Codom/Codom.github.io)
 * [My dotfiles](https://gitlab.com/Codom/i_use_arch_btw)
-* More disorganized one-off projects on my [github](https://github.com/Codom) and
-[gitlab](https://gitlab.com/Codom)
+* More disorganized one-off projects on my [Github](https://github.com/Codom) and
+[Gitlab](https://gitlab.com/Codom)

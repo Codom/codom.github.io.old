@@ -7,4 +7,6 @@
 .ccls-cache
 *.out
 *.cls
+*.log
 template.html wasm.html
+src/*.pdf
